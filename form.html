@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .form{
+            text-align: center;
+            border: 1px solid white;
+            margin-left: 500px;
+            margin-right: 500px;
+            border-radius: 20px;
+            background-color: white;
+            opacity: 0.5;
+            margin-top: 20px;
+            padding: 10px;
+            padding-bottom: 10px;
+            color: black;
+            font-weight: bold;
+            font-size:large;
+        }
+    </style>
+</head>
+<body style="background-image: url(https://i.pinimg.com/564x/89/b7/b5/89b7b5da553719634ea0673f08e8eedc.jpg); background-size: cover;">
+    <div class="form">
+         <h1 style="font-weight: bold; color:black;">Registration</h1>
+        
+         <label for="name">Enter your name</label>
+         <input type="text" placeholder="john"><br><br>
+         <label for="age">Enter your age</label>
+         <input type="number" placeholder="21" min="0"><br><br>
+         <label for="email">Enter your email ID</label>
+         <input type="email" placeholder="xyz@gmail.com"><br><br>
+         <label for="dob">Enter your date of birth</label>
+         <input type="date" placeholder="30/11/2003"><br><br>
+         <label for="color">Enter your favourite color</label>
+         <input type="color" placeholder="red"><br><br>
+         <label for="password">Enter your password</label>
+         <input type="password" placeholder="password"><br><br>
+         <label for="phone">Enter your phone number:</label>
+         <input type="phone number" placeholder="+91-__________"/><br><br>
+
+         <label for="sport">Choose your favourite sport</label><br>
+         <input type="radio" id="sport1" name="sport" value="football">
+         <label for="sport1">Football</label><br>
+         <input type="radio" id="sport2" name="sport" value="basketball">
+         <label for="sport2">Basketball</label><br>
+         <input type="radio" id="sport3" name="sport" value="valleyball">
+         <label for="sport3">Volleyball</label><br>
+         <input type="radio" id="sport4" name="sport" value="handball">
+         <label for="sport4">handball</label><br><br>
+         <label for="file">Attach a file</label>
+         <input type="file" placeholder=""><br><br>
+         <input type="checkbox" name="terms" value="terms"/>I agree to the terms and conditions<br><br>
+         <input type="submit" value="Submit">
+    </div>
+    
+</body>
+</html>
